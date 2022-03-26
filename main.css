@@ -21,7 +21,7 @@ body {
 
 button {
     font-family: var(--title-font);
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     font-weight: 600;
 
     border: solid 1px #fff;
@@ -63,9 +63,12 @@ h2 {
 
 p {
     font-family: var(--text-font);
-    font-size: 1.4rem;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
     font-weight: 600;
-    line-height: 1.9rem;
     margin-bottom: 1.2rem;
 }
 
@@ -110,14 +113,14 @@ header li {
 }
 
 #home h2 {
-    margin-bottom: 3.2rem;
+    /* margin-bottom: 3.2rem; */
 }
 
 #home p {
     font-family: var(--text-font);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
     font-weight: 600;
-    line-height: 1.9rem;
     margin-bottom: 1.2rem;
 }
 
@@ -179,19 +182,20 @@ header li {
 
 /* ==*==*==*== Services ==*==*==*== */
 #services {
-    margin: 18rem min(6.6rem, 3rem);
-    display: block;
+    margin: 10rem;
+    display: flex;
+    text-align: center;
     align-items: center;
 }
 
 #services .container{  
-    /* margin-left: 13.2rem; */
+    margin-left: 0;
 }
 
 #services img {
+    width: 517px;
+    height: 505px;
     margin-bottom: 3rem;
-    width: 90%;
-    height: 90%;
 }
 
 #services h2 {
@@ -200,10 +204,12 @@ header li {
 
 #services p {
     font-family: var(--text-font);
-    width: 75%;
-    font-size: 1.4rem;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
     font-weight: 600;
-    line-height: 1.9rem;
     margin-bottom: 1.2rem;
 }
 
@@ -244,7 +250,7 @@ header li {
 }
 
 /* ==*==*==*== Ball ==*==*==*== */
-.ball {
+/* .ball {
     position: absolute;
     z-index: -1;
     opacity: 0.35; 
@@ -260,7 +266,7 @@ header li {
     width: 75rem;
     margin-top: -65rem;
     margin-left: 70rem;
-}
+} */
 
 /* ==*==*==*== Responsive ==*==*==*== */
 @media (max-width: 1000px) {
@@ -287,5 +293,22 @@ header li {
         margin-bottom: 3rem;
     }
 
+    #services {
+        display: block
+    }
 
+    #services p{
+        width: 90%;
+        margin: auto;
+        text-align: left;
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+        font-weight: 600;
+        margin-bottom: 1.2rem;
+    }
+
+    #services img{     
+    width: 90%;
+    height: 90%;
+    }
 }
