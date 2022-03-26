@@ -185,7 +185,7 @@ header li {
 }
 
 #services .container{  
-    margin-left: 13.2rem;
+    /* margin-left: 13.2rem; */
 }
 
 #services img {
@@ -213,7 +213,8 @@ header li {
     text-align: center;
     margin: auto;
     margin-bottom: 10rem;
-    width: 88.8rem;
+    /* width: 88.8rem; */
+    width: 100%;
     
     text-align: center;
     font-family: 'Open Sans', sans-serif;
