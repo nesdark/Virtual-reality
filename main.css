@@ -10,6 +10,10 @@ body {
     color: #fff;
 }
 
+main {
+    margin-top: 3rem;
+}
+
 :root {
     font-size: 62.5%;
     --font-white: #ffffff;
@@ -64,7 +68,6 @@ h2 {
 p {
     font-family: var(--text-font);
     width: 90%;
-    margin: auto;
     text-align: left;
     font-size: 1.5rem;
     line-height: 1.8rem;
@@ -77,10 +80,10 @@ p {
 header{
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    width: 90%;
+    margin: 1rem auto;
     align-items: center;
     text-align: center;
-    width: 80%;
 }
 
 header nav {
@@ -105,7 +108,7 @@ header li {
 #home {
     display: flex;
     align-items: center;
-    margin: 6rem min(6.6rem, 3rem) 0;
+    margin: 6rem min(6.6rem, 12rem) 0;
 }
 
 #home .container {
@@ -121,13 +124,13 @@ header li {
     font-size: 1.5rem;
     line-height: 1.8rem;
     font-weight: 600;
+    margin-left: 0;
     margin-bottom: 1.2rem;
 }
 
 #home .background-img {
     width: 100%;
-    height: 100%;    
-    
+    height: 100%;  
 }
 
 /* ==*==*==*== Container ==*==*==*== */
@@ -312,9 +315,20 @@ header li {
         height: 95%;
     }
 
-    #footer,
-    #footer h2,
-    #footer p{
+    #footer {
         width: 100%;
+        padding: 0 15rem 0 15rem;
+    }
+
+    #footer p {
+        width: 100%;
+    }
+
+    #footer h2 {
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        margin-top: 1.7rem;
+        margin-bottom: 3.7rem;
     }
 }
