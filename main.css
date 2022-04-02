@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 body {
@@ -20,7 +20,7 @@ main {
     --font-blue: #9ba4ed;
     --title-font: 'Nunito', sans-serif;
     --text-font: 'Opens sans', sans-serif;
-    
+
 }
 
 button {
@@ -77,7 +77,7 @@ p {
 
 /* ==*==*==*==  Header ==*==*==*== */
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -130,7 +130,7 @@ header li {
 
 #home .background-img {
     width: 100%;
-    height: 100%;  
+    height: 100%;
 }
 
 /* ==*==*==*== Container ==*==*==*== */
@@ -142,7 +142,7 @@ header li {
     color: #ffff;
     margin: 0 auto;
     border-radius: 2rem;
-    
+
     /* justify-content: space-between; */
     /* opacity: 0.3; */
     /* mix-blend-mode: screen; */
@@ -156,7 +156,7 @@ header li {
 
 .card {
     width: 100%;
-    height: 100%;  
+    height: 100%;
     margin-right: 4.2rem;
     padding: 4rem;
 
@@ -169,13 +169,14 @@ header li {
     border-radius: 2rem;
 }
 
+.card p {
+    width: 100%;
+    text-align: center;
+}
+
 .card.last {
     margin-right: 0;
 }
-
-/* .card p {
-    margin-bottom: 5rem;
-} */
 
 .card img {
     width: 10rem;
@@ -191,7 +192,7 @@ header li {
     align-items: center;
 }
 
-#services .container{  
+#services .container {
     margin-left: 0;
 }
 
@@ -207,9 +208,9 @@ header li {
 
 #services p {
     font-family: var(--text-font);
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
-    text-align: left;
+    text-align: center;
     font-size: 1.5rem;
     line-height: 1.8rem;
     font-weight: 600;
@@ -223,7 +224,7 @@ header li {
     margin: auto;
     margin-bottom: 10rem;
     width: 88.8rem;
-    
+
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
@@ -235,7 +236,7 @@ header li {
 
 }
 
-#footer h2{
+#footer h2 {
     width: 70%;
     text-align: left;
     margin-left: 20%;
@@ -287,7 +288,7 @@ header li {
         font-size: 4rem;
     }
 
-    #category .cards{
+    #category .cards {
         width: 100%;
         display: block;
     }
@@ -300,7 +301,7 @@ header li {
         display: block
     }
 
-    #services p{
+    #services p {
         width: 90%;
         margin: auto;
         text-align: left;
@@ -310,7 +311,7 @@ header li {
         margin-bottom: 1.2rem;
     }
 
-    #services img{     
+    #services img {
         width: 95%;
         height: 95%;
     }
