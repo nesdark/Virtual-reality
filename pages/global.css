@@ -80,6 +80,7 @@ main h2 {
 }
 
 main span {
+    font-family: 'Nunito';
     color: var(--font-blue)
 }
 
@@ -90,6 +91,7 @@ main .content {
 }
 
 main .content p {
+    text-align: justify;
     margin-bottom: 2rem
 }
 
